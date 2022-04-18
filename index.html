@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/heroes/">
+    <link rel="icon" href="images/favicon.ico">
+    <link href='https://fonts.googleapis.com/css2?family=Roboto&display=swap' rel='stylesheet'>  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&family=Square+Peg&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/78265144bc.js" crossorigin="anonymous"></script>
+    <form action="https://formspree.io/f/xzbovrjw"
+          method="POST"
+    >
+    <title>Nina's Booklist</title>
+    <style>
+        input{
+          display: block;
+        }
+        *:focus{
+          border: 5px solid black;
+      }
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5REGJ881LZ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-5REGJ881LZ');
+    </script>
+  </head>
+
+  <body>
+    <a class = "skip" href="#skip">Skip to Main Content</a>
+    <header>
+      <nav>
+        <ul class="nav_links">
+          <li class="nav_item activated"><a href="index.html">Home</a></li>
+          <li class="nav_item"><a href="one-star.html">One Star</a></li>
+          <li class="nav_item"><a href="two-star.html">Two Star</a></li>
+          <li class="nav_item"><a href="three-star.html">Three star</a></li>
+        </ul>
+    </nav>
+    </header>
+    <div class="divider"></div>
+    <main >
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="images/books.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">2021 Book List Summary</h1>
+            <p class="lead">Hey! This is Nina :) Reading books is my 2021 new year resolution and I read 12 books in total, which includes different genres.<br><br> And for each book,  I included the book name, author and a short introduction. Hope this can give you some inspirations when you want to find something to read.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container_2">
+        <span class="circle">
+          <i class="fa fa-arrow-down"></i>
+        </span>
+        <span class="pulse"></span>
+      </div>
+
+      <h2 id="skip">About Rating</h2>
+        <p>Some authors shared their own life stories or impressive momments they saw.
+            Others created a wonderful imaginery world, impressing me with their creativity. 
+            However, there are also books that did not touch me as much as others do.</p>
+        <div class="rating">
+            <div class="card">
+              <header><h3>One Star</h3></header>
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <ul>
+                <li>Sadly, these books are not my type.</li>
+                <li>Books that are not so interesting and usually took me a long time to finish.</li>
+              </ul>
+              <button onclick="window.location.href = 'one-star.html';">View books</button>
+            </div>
+            <div class="card">
+              <header><h3>Two Stars</h3></header>
+              <div class="icon">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+              <ul>
+                <li>These books are okay!</li>
+                <li> I still want to finish them when I am free. Feel the drive to continue reading. Recommended!</li>
+              </ul>
+              <button onclick="window.location.href = 'two-star.html';">View books</button>
+            </div>
+            <div class="card">
+              <header><h3>Three Stars</h3></header>
+              <div class="icon">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+              <ul>
+                <li>They are fantastic!</li>
+                <li>Books that I prefer to stay overnight to read. Never regret reading these books. Strongly recommended!!</li>
+              </ul>
+              <button onclick="window.location.href = 'three-star.html';">View books</button>
+            </div>
+          </div>
+          <h2>About Sources</h2>
+          <div class="sources">
+            <div class="item1 movement">
+                <img src="images/loriii.jpg" alt="Photo of Lori" id="movement1">
+            </div>
+            <div class="item2">
+                <h3>Lori - Influencer on Bilibili and YouTube</h3>
+                <p>Lori is a Chinese video content creator.
+                    She always shares fun videos about her life and work in the United States. 
+                    She usually uploads one book recommendation video every month. 
+                    Because we share a similar taste, I really love her book list.</p>
+            </div>
+            <div class="item3 movement">
+                <img src="images/friend.jfif" alt="Poster of My Brilliant Friend">
+            </div>
+            <div class="item4">
+                <h3>Films and TV Dramas</h3>
+                <p>Many films and dramas are adapted from novels.
+                    If I find myself interested in the films or dramas, I will search original books to read. 
+                    For example, after watching My Brilliant Friend, I decided to read Neapolitan Novels.</p>
+            </div>
+          </div>
+
+          <h2>Books I plan to read in 2022</h2>
+          <div class="sources_2">
+            <div>
+                <img src="images/fiona.png" alt="Book cover of Fiona and Jane">
+            </div>
+            <div>
+                <img src="images/theschool.png" alt="Book cover of The School for Good Mothers">
+            </div>
+            <div>
+                <img src="images/allof.png" alt="Book cover of All of You Every Single One">
+            </div>
+            <div>
+              <img src="images/allof.png" alt="Book cover of All of You Every Single One">
+            </div>
+            <div>
+              <img src="images/olga.png" alt="Book cover of Olga Dies Dreaming">
+            </div>
+            <div>
+              <img src="images/wahala.png" alt="Book cover of Wahala">
+            </div>
+            <div>
+              <img src="images/lost.png" alt="Book cover of Lost and Found">
+            </div>
+            <div>
+              <img src="images/mouth.png" alt="Book cover of Mouth to Mouth">
+            </div>
+            <div>
+              <img src="images/icame.png" alt="Book cover of I Came All This Way to Meet You: Writing Myself Home">
+            </div>
+          </div>
+
+          <h2>Fun to know: top 3 authors 2022</h2> 
+          <div class="boxesContainer">
+            <div class="cardbox">
+              <div class="card-flip">
+                  <div class="front">
+                    <a href="#" id="card-flip">
+                    <img src="images/fanonne.jpg" alt="Picture of Honorée Fanonne Jeffers">
+                    </a>
+                  </div>
+                </a>
+                <div class="back">
+                  <p>Honorée Fanonne Jeffers</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="cardbox">
+              <div class="card-flip">
+                  <div class="front">
+                    <a href="#" id="card-flip">
+                    <img src="images/janice.png" alt="Picture of Janice Hallett">
+                    </a>
+                  </div>
+                <div class="back">
+                  <p>Janice Hallett</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="cardbox">
+              <div class="card-flip">
+                  <div class="front">
+                    <a href="#" id="card-flip">
+                      <img src="images/diane.jpg" alt="Picture of Diane Chamberlain">
+                    </a>
+                  </div>
+                <div class="back">
+                  <p>Diane Chamberlain</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xzbovrjw" method="post">
+            <h2>Let's chat!</h2>  
+                <!--Add your code below-->
+            <div class="card">
+                <fieldset>
+                <label for="name_id">Your Name</label>
+                <input type="text" name="user_name" id="name_id" placeholder="Enter Your Name" required>
+                <label for="email_address">Your Email</label>
+                <input type="email" name="email" id="email_address" placeholder="me@me.com"><br>
+                <label for="leave_message">Leave A Message</label>
+                <textarea name="message" id="leave_message" placeholder="Leave it here"></textarea><br><br>
+                <input type="submit" value="Submit">
+            </fieldset>
+
+            </div>
+            
+          </form>
+          <canvas id="canvas"></canvas>
+          <script src ="animation.js"></script>
+        </main>
+
+        <footer>
+            <p>Nina Chen's 2021 Book List<br/>
+                &copy; Nina Chen - SI 539 HTML portfolio </p>
+        </footer>
+      </body>
+    </html>
+    
+
